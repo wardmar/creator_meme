@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+}
+
+.entete
+{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.crea
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.rendu
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.image
+{
+    border: solid 1px black;
+    position: relative;
+    overflow: hidden;
+}
+
+#txtimg
+{
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+}
+
+#chooseimg
+{
+    position: relative;
+}
+
+.finish
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#term
+{
+    width:100px;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
+table ,tr ,td
+{
+    border: solid 1px black
+}
+
+.tab
+{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px
+}
+
+.hm
+{
+    margin-top: 30px;
+    padding:  10px;
+    height: 25px;
+    margin-bottom: 0;
+    background-color: cadetblue;
+}
